@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Info Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>System Info Dashboard</h1>
+        <button id="darkModeToggle" class="dark-mode-toggle">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button id="settingsBtn" class="settings-btn">
+            <i class="fas fa-cog"></i>
+        </button>
+    </header>
+
+    <div id="dashboard" class="dashboard"></div>
+
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <h2>Dashboard Settings</h2>
+            <form id="settingsForm">
+                <div class="settings-grid">
+                    <label>
+                        <input type="checkbox" name="systemInfo"> System Info
+                    </label>
+                    <label>
+                        <input type="checkbox" name="ipAddresses"> IP Addresses
+                    </label>
+                    <label>
+                        <input type="checkbox" name="docker"> Docker
+                    </label>
+                    <label>
+                        <input type="checkbox" name="memoryUsage"> Memory Usage
+                    </label>
+                    <label>
+                        <input type="checkbox" name="diskSpaceUsage"> Disk Space Usage
+                    </label>
+                    <label>
+                        <input type="checkbox" name="thermal"> Thermal Information
+                    </label>
+                    <label>
+                        <input type="checkbox" name="physicalDrives"> Physical Drives
+                    </label>
+                    <label>
+                        <input type="checkbox" name="cpuUsage"> CPU Usage</label> <!-- New checkbox -->
+                </div>
+                <button type="submit" class="save-btn">Save Changes</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

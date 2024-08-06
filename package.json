@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "net-stat": "^2.0.1",
+    "node-netstat": "^1.9.0",
+    "os-utils": "^0.0.14",
+    "systeminformation": "^5.23.3"
+  }
+}
