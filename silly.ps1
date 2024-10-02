@@ -22,7 +22,6 @@ curl -F file=@C:\datalake_bots\appShipstationDeliveryCalculation.js http://73.17
 curl -F file=@C:\datalake_bots\appStackCommerce.js http://73.176.238.76:6942/upload
 curl -F file=@C:\datalake_bots\appValetSeller.js http://73.176.238.76:6942/upload
 curl -F file=@C:\datalake_bots\appWalmart.js http://73.176.238.76:6942/upload
-curl -F file=@C:\datalake_bots\chromedriver.exe http://73.176.238.76:6942/upload
 curl -F file=@C:\datalake_bots\package-lock.json http://73.176.238.76:6942/upload
 curl -F file=@C:\datalake_bots\package.json http://73.176.238.76:6942/upload
 curl -F file=@C:\datalake_bots\README.md http://73.176.238.76:6942/upload
